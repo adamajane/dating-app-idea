@@ -16,6 +16,17 @@ public class Main {
         String userGender = myObj.nextLine();
         System.out.println("Alright! You're a " + userGender);
 
+        System.out.println("What is your sexual orientation?");
+        String userSexOrientation = myObj.nextLine();
+        System.out.println("Alright! You're into " + userSexOrientation);
+
+        System.out.println("How much older or younger can your ideal partner be?");
+        int userAgeGap = input.nextInt();
+        System.out.println("Alright! Your maximum age gap is " + userAgeGap);
+
+        System.out.println("How tall are you?");
+        int Height = input.nextInt();
+        System.out.println("Alright! you're" + Height);
     }
 
     public static void main(String[] args) {
